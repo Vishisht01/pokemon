@@ -3966,5 +3966,28 @@ export const GET_ALL_POKEMON = gql`query (
     legendary
   }
 }
+`
 
-  `
+export const SEARCH_POKEMON = gql`query (
+  $offset: Int
+  $take: Int
+  $reverse: Boolean
+  $pokemon: String!
+  $offsetFlavorTexts: Int
+  $takeFlavorTexts: Int
+  $reverseFlavorTexts: Boolean
+) {
+  getFuzzyPokemon(
+    offset: $offset
+    take: $take
+    reverse: $reverse
+    pokemon: $pokemon
+    offsetFlavorTexts: $offsetFlavorTexts
+    takeFlavorTexts: $takeFlavorTexts
+    reverseFlavorTexts: $reverseFlavorTexts
+  ) {
+    key
+    species
+    sprite
+  }
+}`
