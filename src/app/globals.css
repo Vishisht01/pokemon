@@ -11,23 +11,35 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+.container{
+  width: 100%;
+  color: black;
+}
+.banner_container
+{
+  width: 100%;
+  height: 80vh;
+display: flex;
+flex-direction: row;
+}
+.content_section{
+  width: 40%;
+  background-color: white;
+}
+.image_section
+{
+  width: 60%;
+  background-color: #A2BF8B;
 }

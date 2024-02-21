@@ -1,0 +1,107 @@
+{
+  "data": {
+    "getAllPokemon": [
+      {
+        "key": "pokestarsmeargle",
+        "abilities": {
+          "first": {
+            "key": "owntempo",
+            "bulbapediaPage": "https://bulbapedia.bulbagarden.net/wiki/Own_Tempo_(Ability)",
+            "desc": "This Pokémon cannot be confused. Gaining this Ability while confused cures it. This Pokémon is immune to the effect of the Intimidate Ability.",
+            "isFieldAbility": null,
+            "isNonstandard": null,
+            "name": "Own Tempo",
+            "serebiiPage": "https://www.serebii.net/abilitydex/own_tempo.shtml",
+            "shortDesc": "This Pokémon cannot be confused. Immune to Intimidate.",
+            "smogonPage": "https://www.smogon.com/dex/ss/abilities/own_tempo"
+          },
+          "hidden": {
+            "key": "moody",
+            "bulbapediaPage": "https://bulbapedia.bulbagarden.net/wiki/Moody_(Ability)",
+            "desc": "This Pokémon has a random stat, other than accuracy or evasiveness, raised by 2 stages and another stat lowered by 1 stage at the end of each turn.",
+            "isFieldAbility": null,
+            "isNonstandard": null,
+            "name": "Moody",
+            "serebiiPage": "https://www.serebii.net/abilitydex/moody.shtml",
+            "shortDesc": "Boosts a random stat (except accuracy/evasion) +2 and another stat -1 every turn.",
+            "smogonPage": "https://www.smogon.com/dex/ss/abilities/moody"
+          },
+          "second": {
+            "key": "technician",
+            "bulbapediaPage": "https://bulbapedia.bulbagarden.net/wiki/Technician_(Ability)",
+            "desc": "This Pokémon's moves of 60 power or less have their power multiplied by 1.5, including Struggle. This effect comes after a move's effect changes its own power.",
+            "isFieldAbility": null,
+            "isNonstandard": null,
+            "name": "Technician",
+            "serebiiPage": "https://www.serebii.net/abilitydex/technician.shtml",
+            "shortDesc": "This Pokémon's moves of 60 power or less have 1.5x power, including Struggle.",
+            "smogonPage": "https://www.smogon.com/dex/ss/abilities/technician"
+          },
+          "special": null
+        },
+        "backSprite": "https://play.pokemonshowdown.com/sprites/gen5-back/pokestarsmeargle.png",
+        "baseForme": null,
+        "baseSpecies": null,
+        "baseStats": {
+          "attack": 20,
+          "defense": 35,
+          "hp": 55,
+          "specialattack": 20,
+          "specialdefense": 45,
+          "speed": 75
+        },
+        "baseStatsTotal": 250,
+        "bulbapediaPage": "",
+        "catchRate": {
+          "base": 0,
+          "percentageWithOrdinaryPokeballAtFullHealth": "0%"
+        },
+        "color": "White",
+        "cosmeticFormes": null,
+        "eggGroups": [
+          "Field"
+        ],
+        "evolutionLevel": null,
+        "evolutions": null,
+        "evYields": {
+          "attack": 0,
+          "defense": 0,
+          "hp": 0,
+          "specialattack": 0,
+          "specialdefense": 0,
+          "speed": 0
+        },
+        "flavorTexts": [],
+        "forme": null,
+        "formeLetter": null,
+        "gender": {
+          "female": "50%",
+          "male": "50%"
+        },
+        "height": 1.5,
+        "isEggObtainable": false,
+        "levellingRate": null,
+        "maximumHatchTime": null,
+        "minimumHatchTime": null,
+        "num": -5000,
+        "otherFormes": null,
+        "preevolutions": null,
+        "serebiiPage": "",
+        "shinyBackSprite": "https://play.pokemonshowdown.com/sprites/gen5-back-shiny/pokestarsmeargle.png",
+        "shinySprite": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pokestarsmeargle.png",
+        "smogonPage": "https://www.smogon.com/dex/sv/pokemon/pokestar-smeargle",
+        "smogonTier": "Custom",
+        "species": "Pokestar Smeargle",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pokestarsmeargle.png",
+        "types": [
+          {
+            "name": "Normal"
+          }
+        ],
+        "weight": 61,
+        "mythical": false,
+        "legendary": false
+      }
+    ]
+  }
+}
