@@ -27,6 +27,16 @@ body {
 .container {
   width: fit-content;
   color: black;
+  margin: auto;
+}
+
+.search_card {
+  width: 80%;
+  border-radius: 20px;
+  height: 350px;
+  background-color: #C5EBDC;
+  padding: 1rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .banner_container {
@@ -42,7 +52,7 @@ body {
   justify-content: center;
   padding: 1rem;
   flex-direction: column;
-  
+
 }
 
 .search_container input {
@@ -60,29 +70,40 @@ body {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
 }
-.suggestions_container{
+
+.suggestions_container {
   position: absolute;
-  top:8%;
+  top: 8%;
   background-color: white;
   padding: 0.4rem;
   width: 32rem;
 }
-.suggestion
-{
+
+.suggestion {
   font-weight: 500;
 
 
 }
-.suggestion:hover{
-  background-color:lightgray;
+
+.suggestion:hover {
+  background-color: lightgray;
   cursor: pointer;
 }
+
 .content_section {
   width: 40%;
   background-color: white;
   display: flex;
   flex-direction: column;
   gap: 5rem;
+}
+
+.content_search_section {
+  width: 40%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .banner_btn {
@@ -92,9 +113,11 @@ body {
   height: 50px;
   font-weight: bold;
 }
-.banner_btn:hover{
+
+.banner_btn:hover {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+
 .image_section {
   width: 60%;
   background-color: #A2BF8B;

@@ -27,7 +27,7 @@ const Card: React.FC<Card> = ({ pokemon }) => {
             </div>
           </div>
           <div className="card_img_container">
-            <img src={pokemon.shinySprite} className="pokemon_img" alt={pokemon.key} />
+            <img src={pokemon.shinyBackSprite} className="pokemon_img" alt={pokemon.key} />
           </div>
         </div>
         <span className="subHeading_font">Abilities</span>
