@@ -92,6 +92,8 @@ body {
   padding: 0.4rem;
   width: 32rem;
   border-radius: 1rem;
+  max-height: 15rem;
+  overflow-y: scroll;
 }
 
 .suggestion {

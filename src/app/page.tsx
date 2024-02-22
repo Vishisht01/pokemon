@@ -20,7 +20,7 @@ export default function First() {
   const handleSearch = async (e: ChangeEvent<HTMLInputElement>) => {
     try {
       setShowSuggestions(true);
-      await searchPokemon({ variables: { offset: 0, take: 10, reverse: true, pokemon: e.target.value } })
+      await searchPokemon({ variables: { offset: 0, take: 40, reverse: true, pokemon: e.target.value } })
     } catch (error) {
       console.log(error);
     }
