@@ -12,7 +12,7 @@ import SearchCard from "@/components/SearchCard";
 export default function First() {
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [modal, setModal] = useState(false);
-  const { data }: { data: { getAllPokemon: Pokemon[] } } = useSuspenseQuery(GET_ALL_POKEMON, { variables: { offset: 0, take: 20, reverse: true } });
+  const { data }: { data: { getAllPokemon: Pokemon[] } } = useSuspenseQuery(GET_ALL_POKEMON, { variables: { offset: 0, take: 20, reverse: false } });
   const [searchPokemon, { data: suggestions }]: [(options?: Partial<LazyQueryHookExecOptions<any, OperationVariables>> | undefined) => Promise<QueryResult<any, OperationVariables>>, { data: { getFuzzyPokemon: Pokemon[] } }] = useLazyQuery(SEARCH_POKEMON)
 
   const [getPokemon, { data: pokemon }]: [(options?: Partial<LazyQueryHookExecOptions<any, OperationVariables>> | undefined) => Promise<QueryResult<any, OperationVariables>>, { data: { getPokemon: Pokemon } }] = useLazyQuery(GET_POKEMON)
@@ -87,6 +87,5 @@ export default function First() {
         </div>
       </div>
     </>
-
   );
 }

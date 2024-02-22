@@ -6,11 +6,11 @@ interface Card {
 
 const Card: React.FC<Card> = ({ pokemon }) => {
   return (
-    <div className="card" key={pokemon.key}>
+    <div className="card" key={pokemon.key} >
       <div className="card_content">
         <div className="card_details">
           <div className="card_name">
-            <h1 className="heading_font">{pokemon.species}</h1>
+            <h1 className="heading_font">{pokemon.species.substring(0, 10)}</h1>
             <div className="card_subdetails">
               <div className="card_subheading">
                 <span className="subHeading_font">Height</span>
