@@ -73,7 +73,7 @@ export default function First() {
               )}
             </div>
             <div className="banner_image_container">
-              <img src="images/banner_image.png" />
+              <img src="images/banner_image.png" width={800} height={500} />
             </div>
           </div>
         </div>
