@@ -44,7 +44,6 @@ body {
   height: 60vh;
   display: flex;
   flex-direction: row;
-  padding-left: 2rem;
   position: relative;
 }
 
@@ -219,4 +218,19 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .search_container input {
+    width: 17rem;
+  }
+
+  .cards_container {
+    grid-template-columns: 1fr;
+  }
+
+  .suggestions_container {
+    width: 17rem;
+  }
+
 }

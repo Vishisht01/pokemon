@@ -44,6 +44,8 @@ export default function First() {
     setModal(false)
   }
   console.log(showSuggestions);
+  console.log(pokemon);
+
 
   return (
     <>
