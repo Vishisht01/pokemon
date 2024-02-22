@@ -33,24 +33,46 @@ const SearchCard: React.FC<SearchCardProps> = ({ pokemon }) => {
                     <div className="close_btn">X</div>
                 </div>
                 <span className="subHeading_font">Abilities</span>
-                <div className="ability_container">
-                    <div className="ability_details">
-                        <h1 className="subHeading_font">First:</h1>
-                        <h1 className="subHeading_font">Hidden:</h1>
-                        <h1 className="subHeading_font">Second:</h1>
-                        <h1 className="subHeading_font">Special:</h1>
+                <div style={{ display: "flex", gap: "0.2rem" }}>
+                    <div className="ability_container">
+                        <div className="ability_details">
+                            <h1 className="subHeading_font">First:</h1>
+                            <h1 className="subHeading_font">Hidden:</h1>
+                            <h1 className="subHeading_font">Second:</h1>
+                            <h1 className="subHeading_font">Special:</h1>
+                        </div>
+                        <div className="ability_details">
+                            <h1 className="subHeading_font">{pokemon.abilities?.first.name.substring(0, 10)}</h1>
+                            <h1 className="subHeading_font">
+                                {pokemon.abilities?.hidden?.name ? pokemon.abilities?.hidden?.name : "None"}
+                            </h1>
+                            <h1 className="subHeading_font">
+                                {pokemon.abilities?.second?.name ? pokemon.abilities?.second?.name : "None"}
+                            </h1>
+                            <h1 className="subHeading_font">
+                                {pokemon.abilities?.special?.name ? pokemon.abilities?.special?.name : "None"}
+                            </h1>
+                        </div>
                     </div>
-                    <div className="ability_details">
-                        <h1 className="subHeading_font">{pokemon.abilities?.first.name}</h1>
-                        <h1 className="subHeading_font">
-                            {pokemon.abilities?.hidden?.name ? pokemon.abilities?.hidden?.name : "No hidden ability"}
-                        </h1>
-                        <h1 className="subHeading_font">
-                            {pokemon.abilities?.second?.name ? pokemon.abilities?.second?.name : "No second ability"}
-                        </h1>
-                        <h1 className="subHeading_font">
-                            {pokemon.abilities?.special?.name ? pokemon.abilities?.special?.name : "No special ability"}
-                        </h1>
+                    <div className="ability_container">
+                        <div className="ability_details">
+                            <h1 className="subHeading_font">Attack:</h1>
+                            <h1 className="subHeading_font">Defense:</h1>
+                            <h1 className="subHeading_font">HP:</h1>
+                            <h1 className="subHeading_font">Speed:</h1>
+                        </div>
+                        <div className="ability_details">
+                            <h1 className="subHeading_font">{pokemon.baseStats.attack}</h1>
+                            <h1 className="subHeading_font">
+                                {pokemon.baseStats.defense}
+                            </h1>
+                            <h1 className="subHeading_font">
+                                {pokemon.baseStats.hp}
+                            </h1>
+                            <h1 className="subHeading_font">
+                                {pokemon.baseStats.speed}
+                            </h1>
+                        </div>
                     </div>
                 </div>
             </div>

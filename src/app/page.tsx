@@ -43,7 +43,6 @@ export default function First() {
   const handleModal = () => {
     setModal(false)
   }
-
   return (
     <>
       <div className="container " onClick={handleModal}>
