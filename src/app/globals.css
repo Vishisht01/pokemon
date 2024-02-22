@@ -34,7 +34,7 @@ body {
   width: 80%;
   border-radius: 20px;
   height: 350px;
-  background-color: #C5EBDC;
+  background-color: #F3EECF;
   padding: 1rem;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
@@ -55,7 +55,8 @@ body {
   left: 33%;
   width: auto;
   height: auto;
-  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .search_container {

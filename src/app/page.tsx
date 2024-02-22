@@ -49,14 +49,14 @@ export default function First() {
     <>
       <div className="container" onClick={handleModal}>
         <div className="banner_container">
-          <div className="search_result">
-            {
-              modal && pokemon &&
+          {
+            modal && pokemon &&
+            <div className="search_result">
               <SearchCard pokemon={pokemon.getPokemon} />
-            }
-          </div>
+            </div>
+          }
           <div className="content_section">
-            <img src="pokemon_image.png" alt="hello" width={169} height={54} />
+            <img src="images/pokemon_image.png" alt="hello" width={169} height={54} />
             <div className="banner_content">
               <h1 className="heading_font">Pokemon</h1>
               <h4 className="text_font">Pokémon are creatures of various shapes and sizes that inhabit the fictional Pokémon world. Trainers, known as Pokémon trainers, catch and train these creatures to battle each other for sport. Each Pokémon species has its own unique abilities, characteristics, and evolutionary paths.</h4>
@@ -75,7 +75,7 @@ export default function First() {
               )}
             </div>
             <div className="banner_image_container">
-              <img src="banner_image.png" />
+              <img src="images/banner_image.png" />
             </div>
           </div>
         </div>
