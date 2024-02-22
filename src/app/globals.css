@@ -41,6 +41,15 @@ body {
   margin-left: 10px;
 }
 
+.close_btn:hover {
+  font-size: 1.2rem;
+}
+
+.details_container {
+  display: flex;
+  gap: 0.2rem;
+}
+
 .search_card {
   width: 35%;
   border-radius: 20px;
@@ -265,5 +274,10 @@ body {
 
   .search_card {
     width: 100%;
+    height: auto;
+  }
+
+  .details_container {
+    flex-direction: column;
   }
 }

@@ -33,7 +33,7 @@ const SearchCard: React.FC<SearchCardProps> = ({ pokemon }) => {
                     <div className="close_btn">X</div>
                 </div>
                 <span className="subHeading_font">Abilities</span>
-                <div style={{ display: "flex", gap: "0.2rem" }}>
+                <div className="details_container">
                     <div className="ability_container">
                         <div className="ability_details">
                             <h1 className="subHeading_font">First:</h1>
