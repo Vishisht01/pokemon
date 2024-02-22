@@ -43,9 +43,6 @@ export default function First() {
   const handleModal = () => {
     setModal(false)
   }
-  console.log(showSuggestions);
-  console.log(pokemon);
-
 
   return (
     <>
