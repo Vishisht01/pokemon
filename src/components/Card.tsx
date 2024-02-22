@@ -1,4 +1,5 @@
 import { Pokemon } from "@/types/pokemon";
+import Link from "next/link";
 
 interface Card {
   pokemon: Pokemon;

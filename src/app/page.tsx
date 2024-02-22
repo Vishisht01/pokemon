@@ -28,7 +28,7 @@ export default function First() {
 
   const handleSearchDebounced = debounce(handleSearch, 500);
 
-  const handlePokemonSelect = async (key: string) => {
+  const handlePokemonSelect = async (key?: string) => {
     try {
       await getPokemon({ variables: { pokemon: key } });
       setShowSuggestions(!showSuggestions);
@@ -37,7 +37,7 @@ export default function First() {
       console.log(error);
     }
   }
-  const handleSuggestionClick = (key: string) => {
+  const handleSuggestionClick = (key?: string) => {
     handlePokemonSelect(key);
   }
   const handleModal = () => {
@@ -46,7 +46,7 @@ export default function First() {
 
   return (
     <>
-      <div className="container" onClick={handleModal}>
+      <div className="container " onClick={handleModal}>
         <div className="banner_container">
           {
             modal && pokemon &&

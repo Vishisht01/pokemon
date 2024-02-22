@@ -9,7 +9,7 @@ const SearchCard: React.FC<SearchCardProps> = ({ pokemon }) => {
     return (
         <div className="search_card">
             <div className="card_content">
-                <div className="card_details">
+                <div className="search_card_details">
                     <div className="card_name">
                         <h1 className="heading_font">{pokemon.species}</h1>
                         <div className="card_subdetails">
@@ -30,6 +30,7 @@ const SearchCard: React.FC<SearchCardProps> = ({ pokemon }) => {
                     <div className="card_img_container">
                         <img src={pokemon.shinyBackSprite ? pokemon?.shinyBackSprite : pokemon?.backSprite} className="pokemon_img" alt={pokemon.key} />
                     </div>
+                    <div className="close_btn">X</div>
                 </div>
                 <span className="subHeading_font">Abilities</span>
                 <div className="ability_container">
