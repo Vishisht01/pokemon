@@ -1,0 +1,18 @@
+{
+    "content_section": {
+        "heading": "Pokemon",
+        "text": "Pokémon are creatures of various shapes and sizes that inhabit the fictional Pokémon world. Trainers, known as Pokémon trainers, catch and train these creatures to battle each other for sport. Each Pokémon species has its own unique abilities, characteristics, and evolutionary paths.",
+        "button_text": "Know More",
+        "image_src": "images/pokemon_image.png",
+        "image_alt": "hello",
+        "image_width": 169,
+        "image_height": 54
+    },
+    "image_section": {
+        "search_placeholder": "Search Pokemon",
+        "image_alt": "Banner Image",
+        "banner_image_src": "images/banner_image.png",
+        "banner_image_width": 800,
+        "banner_image_height": 500
+    }
+}
